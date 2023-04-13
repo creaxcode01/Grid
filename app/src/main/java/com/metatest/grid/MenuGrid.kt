@@ -44,16 +44,16 @@ fun Gridcel() { // début fonction Gridcel
 
             )
 
-            Text(
+            Text( // début head de Text
                 text ="Greek Salad",
                 fontSize = 18.sp,
                 fontWeight = FontWeight.Bold,
                 modifier = Modifier.fillMaxWidth() // mettre une fonction en tant qu'argument car cette fonction a un return
                     .padding(4.dp).background(Color.White).align(Alignment.TopStart)   // alignment.TopStart // aligne le texte en haut à gauche
 
-                )
+                ) // fin de head de Text
 
-            Text(
+            Text( // début head de Text
 
 
                 text = "$12.99",
@@ -66,7 +66,7 @@ fun Gridcel() { // début fonction Gridcel
 
 
 
-                 )
+                 ) // fin de head de Text
 
 
 
